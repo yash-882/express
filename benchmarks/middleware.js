@@ -2,9 +2,14 @@
 var express = require('..');
 var app = express();
 
+function checkBalance(){
+  return function fetch(){
+    
+  }
+}
 // number of middleware
 
-var n = parseInt(process.env.MW || '1', 10);
+var n = parseInt(process.env.MW || '1', 10); 
 console.log('  %s middleware', n);
 
 while (n--) {
