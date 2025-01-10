@@ -7,6 +7,10 @@ function checkBalance(){
     
   }
 }
+
+function checkBalanceInDetail(){
+  
+}
 // number of middleware
 
 var n = parseInt(process.env.MW || '1', 10); 
